@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "MuLaCover"
+  ],
+  "audio_num_codebooks": 8,
+  "audio_vocab_size": 8197,
+  "backbone_flavor": "llama-3B",
+  "decoder_flavor": "llama-300M",
+  "dtype": "bfloat16",
+  "model_type": "mulacover",
+  "muq_dim": 512,
+  "peft_layer_num": 8,
+  "qwen_dim": 1024,
+  "text_vocab_size": 128256,
+  "train_tag": true,
+  "transformers_version": "4.57.6"
+}

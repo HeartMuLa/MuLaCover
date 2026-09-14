@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="1564" height="316" viewBox="103 276 1564 316"
+     preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">VERA PRAXIS — black, transparent background</title>
+  <desc id="desc">Vector reconstruction of the supplied VERA PRAXIS reference. Clean geometric emblem and individually editable letter outlines. No raster images or external font dependencies.</desc>
+  <!-- Change this fill value to recolor every foreground element. -->
+  <g id="artwork" fill="#000000" stroke="none">
+    <!-- Three independent parts of the emblem. -->
+    <g id="emblem" aria-label="Geometric emblem">
+      <path id="emblem-top" d="M127 300H568V363H127Z"/>
+      <path id="emblem-diagonal" d="M270 395H354L210 542H127Z"/>
+      <path id="emblem-bottom" d="M347 483H568V543H347Z"/>
+    </g>
+    <!-- Letter outlines prevent font substitution. Each letter is independently editable. -->
+    <g id="word-vera" aria-label="VERA">
+      <path id="vera-v" d="M686 309H697L715.5 360L734 309H745L721 371H710Z"/>
+      <path id="vera-e" d="M792 309H837V318H801V335H834V344H801V362H837V371H792Z"/>
+      <path id="vera-r" fill-rule="evenodd" d="M887 309H914C928.5 309 936 315 936 327.5C936 335.8 932.1 341.2 926 344C931.5 347.3 934.6 360.5 937 371H926C923.9 364.7 922.2 358.3 919.5 352.8C917.4 348.5 915.1 347 909 347H897V371H887ZM897 318V339H911.5C921 339 926 336.1 926 328.2C926 321 922 318 914.5 318Z"/>
+      <path id="vera-a" fill-rule="evenodd" d="M1005 309H1017L1042 371H1031L1025 356H997L991 371H980ZM1011 319L1000 347H1022Z"/>
+    </g>
+    <g id="word-praxis" aria-label="PRAXIS">
+      <path id="praxis-p" fill-rule="evenodd" d="M693 423H762C794.5 423 812 437.5 812 466C812 494 794.5 509.5 763 509.5H709V564H693ZM709 438V495H764C785 495 796 484.7 796 466C796 447.5 785 438 765 438Z"/>
+      <path id="praxis-r" fill-rule="evenodd" d="M875 423H944C975.5 423 992 435 992 462.5C992 480.1 983.5 493.5 966.5 499C980.5 506.5 982.4 513.8 985.5 531C987.7 543 989.7 554.5 992 564H976C973.4 557 971.4 545.2 969.5 534.5C966.2 515.5 963.8 511.3 956 508C950.7 505.7 944 505 934.5 505H891V564H875ZM891 438V491H940.5C963.5 491 975 482.5 975 463C975 445.7 964.8 438 942 438Z"/>
+      <path id="praxis-a" fill-rule="evenodd" d="M1108 423H1127L1189 564H1172L1155 526H1079L1062 564H1045ZM1117 437L1084 512H1150Z"/>
+      <path id="praxis-x" d="M1247.88 423.00L1267.01 423.00L1312.68 481.53L1359.11 423.00L1378.55 423.00L1322.27 491.15L1380.07 564.00L1360.90 564.00L1312.33 501.73L1262.82 564.00L1244.24 564.00L1302.39 491.45Z"/>
+      <path id="praxis-i" d="M1442 423H1459V564H1442Z"/>
+      <path id="praxis-s" transform="translate(1579.789 420.570)" d="M58.336 42.18 C56.0465 42.4121 44.664 42.7896 43.586 41.43 C42.9238 37.4997 42.5482 33.3466 40.4849 29.836 C30.8694 13.4759 2.3703 11.9723 -14.1422 15.1825 C-27.6294 17.8045 -41.4598 24.1774 -40.5523 40.3275 C-39.8269 53.2394 -26.8809 59.0411 -15.8302 61.2088 C-4.4108 63.4488 7.2298 64.5454 18.586 67.055 C21.4724 67.6929 24.4852 67.8567 27.3634 68.5594 C49.0047 73.8425 65.7743 84.7475 63.3342 109.6264 C62.7927 115.1473 61.1208 120.5045 58.1367 125.2026 C41.3538 151.625 -9.639 151.4153 -35.0138 139.9628 C-47.9986 134.1024 -57.7054 122.7672 -60.0564 108.5874 C-60.3963 106.5373 -61.3247 103.6872 -60.539 101.68 C-58.5987 101.0607 -45.831 101.2579 -45.069 102.323 C-43.7432 108.1927 -43.3059 113.7763 -39.55 118.8085 C-28.5534 133.5417 -0.5515 134.8028 16.0138 132.4975 C29.7299 130.5888 47.3768 123.7552 47.7247 107.3438 C47.9998 94.3613 40.5309 87.7442 28.6004 84.2638 C3.508 76.9437 -45.947 80.9435 -54.9684 50.3122 C-56.2872 45.8343 -57.132 41.9099 -56.6446 37.1744 C-56.1463 32.3327 -55.1229 27.2887 -52.6591 23.0475 C-36.7426 -4.351 13.7366 -5.4545 38.7936 8.5939 C48.2108 13.8738 54.5082 21.4454 57.6252 31.7712 C58.2174 33.733 59.9515 40.8735 58.336 42.18 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: MuLaCover Discord
+    url: https://discord.gg/2Qj5DXsvh
+    about: Ask usage questions and join community discussions.
+  - name: Security report
+    url: https://github.com/HeartMuLa/MuLaCover/security/advisories/new
+    about: Report suspected vulnerabilities privately.

@@ -59,8 +59,11 @@ from melody/chord MIDI.
 
 ## 📰 News
 
-- 🚀 **11 Sep. 2026** — Uploaded the first MuLaCover release candidate and
-  checksums to a private [Hugging Face model repository](https://huggingface.co/HeartMuLa/MuLaCover).
+- 🚀 **16 Sep. 2026** — MuLaCover code and model weights are now publicly
+  available! Explore the [code](https://github.com/HeartMuLa/MuLaCover), download
+  the [model weights and checksums](https://huggingface.co/HeartMuLa/MuLaCover),
+  and follow the [generation guide](examples/cover_song_generation.md) to create
+  cover songs and remixes from reference audio or melody/chord MIDI.
 - 🧩 **11 Sep. 2026** — Released the standalone `mulacover` inference package,
   reference-audio/MIDI workflows, and reproducible deployment guide.
 

@@ -128,7 +128,7 @@ Join the [MuLaCover Discord](https://discord.gg/2Qj5DXsvh) for discussion and
 community support. Reproducible software defects should be reported through
 the code repository's GitHub Issues.
 
-## Join MuLa Labs
+## Join MuLa Labs, Vera Praxis Lab
 
 We are always excited to meet people with a strong interest in audio and music.
 MuLa Labs has internship openings for candidates who want to build the next

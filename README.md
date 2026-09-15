@@ -356,7 +356,7 @@ guarantee that other configurations are unsupported.
 - Report security issues through the private process in
   [`SECURITY.md`](SECURITY.md), not through a public issue.
 
-### Join MuLa Labs
+### Join MuLa Labs, Vera Praxis Lab
 
 We are always excited to meet people with a strong interest in audio and music.
 MuLa Labs has internship openings for candidates who want to build the next

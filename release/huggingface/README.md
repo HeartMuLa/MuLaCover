@@ -23,9 +23,7 @@ from melody/chord MIDI. The standalone inference code is maintained in the
 [HeartMuLa repository](https://github.com/HeartMuLa/heartlib) ·
 [HeartMuLa paper](https://arxiv.org/abs/2601.10547)
 
-> This model repository remains private during release validation. Access,
-> benchmark results, and final release metadata will be published with the
-> public model release.
+> Model weights are publicly available for download. No access request is required.
 
 ## Inputs
 
@@ -48,10 +46,9 @@ topic:[Longing]; genre:[country]; instrument:[Strings,acoustic guitar]; mood:[ho
 
 ## Download
 
-Access is currently limited to repository members:
+Download the model weights with the Hugging Face CLI. Authentication is not required:
 
 ```bash
-hf auth login
 hf download HeartMuLa/MuLaCover --local-dir ./ckpt/MuLaCover
 ```
 

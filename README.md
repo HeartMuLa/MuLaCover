@@ -116,15 +116,12 @@ ckpt/
     └── chord/*.best.sdict
 ```
 
-Download and verify the private MuLaCover release candidate. Access currently
-requires membership in the HeartMuLa Hugging Face organization:
 
 MuLaCover model weights and generated outputs are restricted to noncommercial
 use under [`MODEL_LICENSE`](MODEL_LICENSE). The Apache-2.0 code license does not
 grant commercial rights to the weights or outputs.
 
 ```bash
-hf auth login
 hf download HeartMuLa/MuLaCover --local-dir ckpt/MuLaCover
 (cd ckpt/MuLaCover && sha256sum -c SHA256SUMS)
 ```
@@ -241,9 +238,9 @@ a text file path or literal text.
 ```bash
 env -u LD_LIBRARY_PATH CUDA_VISIBLE_DEVICES=0 mulacover \
   --model_path ./ckpt \
-  --melody_midi melody.mid --chord_midi chord.mid \
-  --lyrics lyrics.txt --tags tags.txt \
-  --save_path cover.wav --device cuda:0 --seed 42
+  --melody_midi /path/to/melody.mid --chord_midi /path/to/chord.mid \
+  --lyrics /path/to/lyrics.txt --tags /path/to/tags.txt \
+  --save_path /path/to/cover.wav --device cuda:0 --seed 42
 ```
 
 `--drum_midi` is optional. MIDI timing is read in beats; tempo metadata is kept
@@ -254,8 +251,8 @@ for exported MIDI but is not a separate generation condition.
 ```bash
 env -u LD_LIBRARY_PATH CUDA_VISIBLE_DEVICES=0 mulacover \
   --model_path ./ckpt --ref_audio /path/to/reference.mp3 \
-  --lyrics lyrics.txt --tags tags.txt \
-  --symbolic_save_dir transcribed --save_path cover.wav \
+  --lyrics /path/to/lyrics.txt --tags /path/to/tags.txt \
+  --symbolic_save_dir /path/to/transcribed --save_path /path/to/cover.wav \
   --device cuda:0 --seed 42
 ```
 
@@ -329,8 +326,7 @@ weight and output terms.
 <details>
 <summary><strong>Verified environment</strong></summary>
 
-The table records environments that have actually been exercised. It is not a
-guarantee that other configurations are unsupported.
+The table records environments that have actually been exercised.
 
 | Component | Verified configuration |
 | --- | --- |
@@ -338,7 +334,6 @@ guarantee that other configurations are unsupported.
 | Python | 3.10 |
 | PyTorch / CUDA wheel | PyTorch 2.10.0 / CUDA 13.0 |
 | GPU | NVIDIA B300 |
-| Test suite | 86 passed, 7 skipped |
 
 </details>
 

@@ -52,7 +52,7 @@ from melody/chord MIDI.
   chord MIDI directly.
 - **Creative remixing.** Keep the original lyrics or supply entirely new
   lyrics while remixing genre, instrumentation, topic, and mood.
-- **Symbolic musical control.** Reference audio is converted into melody,
+- **Symbolic music control.** Reference audio is converted into melody,
   harmony, and optional drum conditions rather than copied frame by frame.
 
 ---

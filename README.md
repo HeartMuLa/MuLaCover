@@ -354,6 +354,10 @@ The table records environments that have actually been exercised.
 - Report security issues through the private process in
   [`SECURITY.md`](SECURITY.md), not through a public issue.
 
+### Data Collaboration
+
+For data collaboration, please contact us at [contact@mulalabs.ai](mailto:contact@mulalabs.ai).
+
 ### Join MuLa Labs, Vera Praxis Lab
 
 We are always excited to meet people with a strong interest in audio and music.

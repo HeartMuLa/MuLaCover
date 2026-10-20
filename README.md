@@ -11,7 +11,7 @@
   <a href="examples/cover_song_generation.md">Generation Guide 🛠️</a>
   <br>
   <a href="https://github.com/HeartMuLa/heartlib">HeartMuLa ↗</a> &nbsp;|&nbsp;
-  <span>Paper 📑 — Coming soon</span> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/abs/2610.26684">Paper 📑</a> &nbsp;|&nbsp;
   <a href="https://discord.gg/2Qj5DXsvh">Discord 💬</a> &nbsp;|&nbsp;
   <a href="LICENSING.md">Licensing ⚖️</a>
 </p>
@@ -365,3 +365,19 @@ MuLa Labs has internship openings for candidates who want to build the next
 generation of music and audio technology. To apply, email your resume or CV,
 together with a short introduction, to
 [contact@mulalabs.ai](mailto:contact@mulalabs.ai).
+
+### Citation
+
+If you use our work, please cite
+
+```
+@misc{yi2026mulacoverflexiblecoversong,
+      title={MuLaCover: Flexible Cover Song Generation via Symbolic Tonal Control}, 
+      author={Lynn Yi and Zihan Xiong and Junjie Cao and Xiaolong Weng and Yingzhe Ma and Gus Xia and Jinliang Liu and Yuxin Xie and Xianwei Zhuang and Yuguo Yin and Qiao Jin and Gongxi Zhu and Jiayu Wang and Junjie Liang and Qin Yue and Ziyu Wang and Dading Chong and Meng Cao and Jiahuan Zhou and Dongchao Yang},
+      year={2026},
+      eprint={2610.26684},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2610.26684}, 
+}
+```

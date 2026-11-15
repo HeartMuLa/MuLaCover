@@ -7,12 +7,13 @@
 </p>
 
 <p align="center">
+  <a href="https://heartmula.com">Try Online 🎵</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/HeartMuLa/MuLaCover">Model Weights 🤗</a> &nbsp;|&nbsp;
   <a href="examples/cover_song_generation.md">Generation Guide 🛠️</a>
   <br>
   <a href="https://github.com/HeartMuLa/heartlib">HeartMuLa ↗</a> &nbsp;|&nbsp;
   <a href="https://arxiv.org/abs/2610.26684">Paper 📑</a> &nbsp;|&nbsp;
-  <a href="https://discord.gg/2Qj5DXsvh">Discord 💬</a> &nbsp;|&nbsp;
+  <a href="https://discord.gg/Nf7SRkmWAE">Discord 💬</a> &nbsp;|&nbsp;
   <a href="LICENSING.md">Licensing ⚖️</a>
 </p>
 
@@ -23,6 +24,8 @@
 MuLaCover is a controllable AI cover-song and music-remix model. It transforms
 reference music using new lyrics and a text style description, or generates
 from melody/chord MIDI.
+
+🎵 Want to make covers and remixes without setting anything up? Try **[heartmula.com](https://heartmula.com)** in your browser.
 
 ---
 
@@ -346,7 +349,7 @@ The table records environments that have actually been exercised.
 
 - Explore the foundational [HeartMuLa repository](https://github.com/HeartMuLa/heartlib)
   and read the [HeartMuLa paper](https://arxiv.org/abs/2601.10547).
-- Join the [MuLaCover Discord](https://discord.gg/2Qj5DXsvh) for discussion and
+- Join the [MuLaCover Discord](https://discord.gg/Nf7SRkmWAE) for discussion and
   community support.
 - Use [GitHub Issues](https://github.com/HeartMuLa/MuLaCover/issues) for
   reproducible bugs and feature requests.

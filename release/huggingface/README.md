@@ -15,13 +15,17 @@ tags:
 
 # MuLaCover — Cover Song & Music Remix Generation
 
+> 🎵 **Try HeartMuLa online — no GPU or setup needed:** [heartmula.com](https://heartmula.com)
+> Make songs from lyrics, create covers and remixes, and edit any passage of a song in MuLa Studio. Free daily credits.
+
 MuLaCover is a controllable AI cover-song and music-remix model. It transforms
 reference music using lyrics and a structured text style prompt, or generates
 from melody/chord MIDI. The standalone inference code is maintained in the
 [MuLaCover repository](https://github.com/HeartMuLa/MuLaCover).
 
 [HeartMuLa repository](https://github.com/HeartMuLa/heartlib) ·
-[HeartMuLa paper](https://arxiv.org/abs/2601.10547)
+[HeartMuLa paper](https://arxiv.org/abs/2601.10547) ·
+[Try it online](https://heartmula.com)
 
 > Model weights are publicly available for download. No access request is required.
 
@@ -121,7 +125,7 @@ publicity rights.
 
 ## Community
 
-Join the [MuLaCover Discord](https://discord.gg/2Qj5DXsvh) for discussion and
+Join the [MuLaCover Discord](https://discord.gg/Nf7SRkmWAE) for discussion and
 community support. Reproducible software defects should be reported through
 the code repository's GitHub Issues.
 

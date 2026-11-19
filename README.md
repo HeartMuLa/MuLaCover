@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://heartmula.com">Try Online 🎵</a> &nbsp;|&nbsp;
+  <a href="https://heartmula.com/?utm_source=github&utm_medium=readme&utm_campaign=mulacover_top">Try Online 🎵</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/HeartMuLa/MuLaCover">Model Weights 🤗</a> &nbsp;|&nbsp;
   <a href="examples/cover_song_generation.md">Generation Guide 🛠️</a>
   <br>
@@ -25,7 +25,7 @@ MuLaCover is a controllable AI cover-song and music-remix model. It transforms
 reference music using new lyrics and a text style description, or generates
 from melody/chord MIDI.
 
-🎵 Want to make covers and remixes without setting anything up? Try **[heartmula.com](https://heartmula.com)** in your browser.
+🎵 Want to make covers and remixes without setting anything up? Try **[heartmula.com](https://heartmula.com/?utm_source=github&utm_medium=readme&utm_campaign=mulacover_highlight)** in your browser.
 
 ---
 
@@ -75,6 +75,9 @@ from melody/chord MIDI.
 ## 🛠️ Local Deployment
 
 ### Requirements
+
+> 💡 No GPU, or not enough VRAM? MuLaCover also runs online at [heartmula.com](https://heartmula.com/?utm_source=github&utm_medium=readme&utm_campaign=mulacover_install): free daily credits, nothing to install.
+
 
 - Linux with an NVIDIA GPU
 - Python 3.10
